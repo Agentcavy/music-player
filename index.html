@@ -28,13 +28,13 @@
 			var dis = document.getElementById('irc');
 			
 			player.onloadedmetadata = function(){
-				console.log(player.networkState);
+			
 				player.play();
 				
 				
 				player.ontimeupdate = function(){
 				
-				alert(player.currentTime);
+				
 				_min = timer[i].split(':');
 				if(parseInt(_min[0])>0){
 					_sec = parseFloat(_min[1]) + parseInt(_min[0])*60;
