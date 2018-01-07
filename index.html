@@ -9,6 +9,9 @@
 		audio{
 			width: 600px;
 		}
+		div{
+			height:100%;
+		}
 	
 	</style>
 	<body>
@@ -46,7 +49,7 @@
 				now = _sec - player.currentTime;
 				
 				if(now < 0.3&&now>0){
-					dis.innerHTML = irc[i] + "nextIrc "+irc[++i] +'<br/>';
+					dis.innerHTML = irc[i] +'<br/>';
 					i++;
 				}
 			
