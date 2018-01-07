@@ -25,7 +25,7 @@
 			var i = 0;
 			var dis = document.getElementById('irc');
 			
-			player.onloadeddata = function(){
+			player..onloadedmetadata = function(){
 				player.play();
 				player.ontimeupdate = function(){
 				
@@ -55,7 +55,9 @@
 			var irc = str.replace(/[\.\[\d\:]/g,'').split(']'); //提取的歌词,提取事件
 			var timer = str.replace(/[^\d\]\.\:]/g,'').split(']'); //提取时间
 			irc.shift();
+			
 
+  			
 	</script>
 	
 	</body>
