@@ -46,9 +46,7 @@
 				now = _sec - player.currentTime;
 				
 				if(now < 0.3&&now>0){
-					var _p = document.createElement('p');
-						_p.textContent = irc[i];
-					dis.appendChild(_p);
+					dis.innerHTML = irc[i] + '<br/>';
 					i++;
 				}
 			
